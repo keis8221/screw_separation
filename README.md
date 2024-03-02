@@ -38,6 +38,7 @@ app for creating screw detector
 
 <details>
   <summary>Inference with detect.py</summary>
+  If you want to use the web camera, do the following with it attached.
   
   ```
   python detect.py --weights runs/train/exp3/weights/last.pt --source 0
