@@ -3,6 +3,31 @@ app for creating screw detector
 
 # Documentation
 <details>
+  <summary>preparation</summary>
+  Before running the detection, please install the following and make it executable.
+
+  - python(I ran it on 3.9.18)
+  - pip
+  - conda
+</details>
+
+<details>
+  <summary>When using conda</summary>
+  The following assumes that conda is installed.
+  
+  ```
+  # conda create virtual environment
+  conda create -n screw_separation python=${version}
+
+  # activate
+  conda activate screw_separation
+
+  # deactivate
+  conda deactivate screw_separation
+  ```
+</details>
+
+<details>
   <summary>Install</summary>
   
   ```
